@@ -22,7 +22,7 @@ begin
 		SyncCarEW <= '0';
 		SyncCarNS <= '0';
 		SyncPedEW <= '0';
-		SyncPedNS <= '0';
+		SyncPedNS <= '1';
 	elsif (rising_edge(clk)) then
 		SyncCarEW <= CarEW;
 		SyncCarNS <= CarNS;
